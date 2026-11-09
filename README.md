@@ -2,6 +2,9 @@
 
 Gather.town cheat extension
 
+<img width="754" height="994" alt="image" src="https://github.com/user-attachments/assets/19010d02-0575-4b6f-b8eb-483f3514b150" />
+
+
 ## Build
 ```bash
 # setup
