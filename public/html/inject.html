@@ -1,0 +1,42 @@
+<div id="gather-cheat-menu" style="visibility: hidden;">
+    <h1 id="title-bar"><img id="gather-cheat-icon" alt="">Gather Cheat</h1>
+    <div id="close-button"></div>
+    <div id="menu-content">
+        <section>
+            <h2 data-i18n-key="CURRENT_POS">Current Position</h2>
+            <div>
+                <ul>
+                    <li>Map: <span id="current-map-id">-</span></li>
+                    <li>x: <span id="current-x-pos">-</span></li>
+                    <li>y: <span id="current-y-pos">-</span></li>
+                </ul>
+            </div>
+            <div id="current-pos-group"></div>
+        </section>
+        <section>
+            <h2 data-i18n-key="TELEPORT">Teleport</h2>
+            <div id="teleport-group"></div>
+            <div id="custom-teleport-group"></div>
+        </section>
+        <section>
+            <h2 data-i18n-key="SPEED_MOD">Speed Mod</h2>
+            <p><span data-i18n-key="CURRENT">Current</span>: <span id="current-speed">-</span></p>
+            <div id="speed-group"></div>
+        </section>
+        <section>
+            <h2 data-i18n-key="SEND_EMOTE">Send Emote</h2>
+            <div id="emote-text-group">
+                <input id="emote-text-input" type="text" maxlength="50" placeholder="HELLO">
+                <div id="emote-btn-row">
+                    <button id="emote-send-btn" data-i18n-key="SEND">Send</button>
+                    <button id="emote-stop-btn" data-i18n-key="STOP" disabled>Stop</button>
+                </div>
+            </div>
+            <p id="emote-status"></p>
+        </section>
+        <section>
+            <h2 data-i18n-key="MISC">Misc</h2>
+            <div id="misc-group"></div>
+        </section>
+    </div>
+</div>
